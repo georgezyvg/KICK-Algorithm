@@ -100,7 +100,7 @@ def index_calculus_algorithm(collision_point, eliminated_points):
     return None
 
 # Given public key coordinates
-public_key = ellipticcurve.Point(curve, 0xd6597d465408e6e11264c116dd98b539740e802dc756d7eb88741696e20dfe7d, 0x3588695d2e7ad23cbf0aa056d42afada63036d66a1d9b97070dd6bc0c87ceb0d, n)
+public_key = ellipticcurve.Point(curve, 0xd65xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, 0x3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, n)
 
 # Combine Kangaroo and Index Calculus algorithms to find private key
 eliminated_points = []  # Keep track of eliminated points during Gaussian elimination
